@@ -103,6 +103,11 @@ ul.task-list li input[type="checkbox"] {
             </a>
           </li>
           <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="./L02_-_Eda.pdf.html">
+            Exploratory Data Analysis
+            </a>
+          </li>
+          <li>
             <a class="dropdown-item quarto-navbar-tools-item" href="./L03a_-_Inference.pdf.html">
             Applied Statistics and Data Analysis: Statistical Models
             </a>
@@ -130,6 +135,11 @@ ul.task-list li input[type="checkbox"] {
           <li>
             <a class="dropdown-item quarto-navbar-tools-item" href="./L07_-_Unsupervised.pdf.html">
             Unsupervised Methods: Principal Component Analysis and Cluster Analysis
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="./L08_-_Trees.pdf.html">
+            Lecture 8: Tree-based Methods
             </a>
           </li>
       </ul>
@@ -170,12 +180,14 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="lectures">Lectures</h2>
 <ol type="1">
 <li><a href="./L01_-_Intro.pdf.html">\textbf{Applied Statistics and Data Analysis - Lecture 1: Introduction</a></li>
+<li><a href="./L02_-_Eda.pdf.html">Exploratory Data Analysis</a></li>
 <li><a href="./L03a_-_Inference.pdf.html">Applied Statistics and Data Analysis: Statistical Models</a></li>
 <li><a href="./L03b_-_Inference.pdf.html">Applied Statistics and Data Analysis: Statistical Inference</a></li>
 <li><a href="./L04_-_LMSimple.pdf.html">\textbf{Linear Regression with a Single Predictor and Introduction to ANOVA</a></li>
 <li><a href="./L05_-_LMExt.pdf.html">Towards Multiple Linear Regression and Logistic Regression</a></li>
 <li><a href="./L06_-_Prediction.pdf.html">Predictive and Classification Methods</a></li>
 <li><a href="./L07_-_Unsupervised.pdf.html">Unsupervised Methods: Principal Component Analysis and Cluster Analysis</a></li>
+<li><a href="./L08_-_Trees.pdf.html">Lecture 8: Tree-based Methods</a></li>
 </ol>
 
 
@@ -272,7 +284,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("git@github\.com-TheGhoul21:TheGhoul21\/SA-2024-2025\.git");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
